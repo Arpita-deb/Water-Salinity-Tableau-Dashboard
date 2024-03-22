@@ -137,6 +137,7 @@ These effects highlight the importance of managing salinity levels to protect bo
 # Additional Resources:
 
 * [Water Tubewell and River Salinity in Indian Sundarban Dataset](https://datacatalog.worldbank.org/search/dataset/0038270/India---Water--Tube-well-and-River--Salinity-in-Indian-Sundarban)
+* Photo by <a href="https://unsplash.com/@vishwasnavadak?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Vishwasa Navada K</a> on <a href="https://unsplash.com/photos/green-trees-beside-river-during-daytime-EK9u6IyUldw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 * [Salinity - Wikipedia](https://en.wikipedia.org/wiki/Salinity#Classification_of_water_bodies_based_upon_salinity)
 * [Graphic breakdown of water salinity, defining freshwater, brackish water, saltwater, and brine water By Peter Summerlin - Own work, CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=13274737)
 * [India - Water (Tube-well and River) Salinity in Indian Sundarban](https://datacatalog.worldbank.org/dataset/india-water-tube-well-and-river-salinity-indian-sundarban)
