@@ -60,8 +60,51 @@ This dataset was prepared by Sreejit Roy, Saptarshi Chakraborty, Tapas Kumar Sut
 | Salinity (ppt) | float | The amount of dissolved salts in water, typically expressed in parts per thousand (ppt) or percentage (%) |	
 | Salinity Category | char | Mesohaline/ Polihaline 1/ Polihaline 2/ Polihaline 3 |
 
-# Resource:
+# Data cleaning and Preprocessing:
+
+After downloading the dataset, I've created a copy of it and removed the formattings. After that I've merged the two datasets and renamed it as Merged Sheet. The merged dataset contain 8 columns - Block, Gram Panchayat, Hamlet, Latitude, Longitude, River Salinity (PPT), Salinity Category and Tubewell Salinity (PPT). 
+It contain 55 datapoints. 
+
+# Analysis:
+
+* *Number of Districts*: 2
+* *Number of Blocks*: 7
+* *Number of Gram Panchayat*: 16
+* *Number of Hamlets*: 55
+* *Average river water salinity*: 22.03255814 ppt
+* *Average Tubewell water salinity*: 0.959702501 ppt
+* *Average River salinity and number of hamlets by Salinity Category*:
+
+
+
+* *Top 10 Hamlets in terms terms of average Tubewell Salinity*:
+
+
+
+* *Top 10 Hamlets in terms terms of average River Salinity*:
+
+
+
+* *Hamlets with Tubewell salinity greater than 1 ppt*:
+
+
+
+# Tableau Dashboard:
+
+In the interative tableau dashboard I created two geographical maps of the Indian Sundarban Region showing the Salinity levels of Rivers and Tubewells respectively. One can filter the datapoints according to district, Block, Gram Panchayat, Hamlet or Salinity Level. 
+
+Along with the visualization, I also shared what is salinity, its categories, the salinity level for hamlets in question as well as how Salinity can adversely impact this region.
+
+# Conclusion:
+
+The dashboard reveals that the upstream hamlets of the Delta region exhibit lower salinity levels in river water, yet the groundwater (tubewells) shows higher salinity. Downstream, as river water merges with seawater in estuaries, salinity increases. Consequently, downstream hamlets experience higher salinity in both river water, but surprisingly lower salinity in groundwater.
+
+Data from the World Bank Group indicates that water salinity exceeding 1 part per thousand (ppt) renders it unsuitable for drinking, and surpassing 2 ppt makes it unfit for irrigation. Our analysis indicates that out of 55 hamlets, 17 have tubewell salinity levels above 1 ppt.
+
+# Resources:
 
 * [Water Tubewell and River Salinity in Indian Sundarban Dataset](https://datacatalog.worldbank.org/search/dataset/0038270/India---Water--Tube-well-and-River--Salinity-in-Indian-Sundarban)
 * [Salinity - Wikipedia](https://en.wikipedia.org/wiki/Salinity#Classification_of_water_bodies_based_upon_salinity)
 * [Graphic breakdown of water salinity, defining freshwater, brackish water, saltwater, and brine water By Peter Summerlin - Own work, CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=13274737)
+* [India - Water (Tube-well and River) Salinity in Indian Sundarban](https://datacatalog.worldbank.org/dataset/india-water-tube-well-and-river-salinity-indian-sundarban)
+* [Swallowed by Water, in the Sundarbans There Is Nowhere Else to Go.](https://thediplomat.com/2024/01/swallowed-by-water-in-the-sundarbans-there-is-nowhere-else-to-go/)
