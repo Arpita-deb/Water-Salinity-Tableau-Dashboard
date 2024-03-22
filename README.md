@@ -114,6 +114,8 @@ The dashboard reveals that the upstream hamlets of the Delta region exhibit lowe
 
 Data from the World Bank Group indicates that water salinity exceeding 1 part per thousand (ppt) renders it unsuitable for drinking, and surpassing 2 ppt makes it unfit for irrigation. Our analysis indicates that out of 55 hamlets, 17 have tubewell salinity levels above 1 ppt.
 
+On the other hand, the average salinity level for rivers ranges from 13-27 ppt.
+
 # Why Salinity matters?
 
 High salinity affects the Sundarban region in several ways:
