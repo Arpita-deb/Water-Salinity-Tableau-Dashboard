@@ -1,16 +1,25 @@
-# Hamlet Level Tube well and river salinity in Indian Sundarban 2019 Tableau Dashboard
+# Navigating the Saline Waters: Sundarbans 2019
 
 # Introduction:
 
-This interactive dashboard is designed to analyze the salinity levels of tube wells and rivers within the North 24 Parganas and South 24 Parganas districts, collectively known as the Sundarban Region of the Indian Subcontinent. The initiative aligns with the global observance of World Water Day on March 22nd, aiming to highlight and educate about the adverse effects of human-induced water pollution.
+This interactive dashboard is designed to analyze the salinity levels of tube wells and rivers within the North 24 Parganas and South 24 Parganas districts, collectively known as the Sundarban Region of the Indian Subcontinent. 
 
-Incorporating recent field data, it's evident that water becomes non-potable when salinity surpasses **1 part per thousand (ppt)**, and unsuitable for dry season paddy irrigation beyond **2 ppt**. Alarmingly, in the Sundarban Reclaimed Area, tube-well water salinity has been recorded above 1 ppt in 17 out of 50 surveyed hamlets across Gosaba, Hingalganj, and Patharpratima blocks. Furthermore, salinity levels in the Bidya, Matla, Hooghly, and Raimangal Rivers have been measured at a staggering **13-27 ppt**, underscoring the urgency for action and awareness.
+It serves as a crucial tool for stakeholders—including environmental agencies, policy makers, local communities, and non-governmental organizations—focusing on the Sundarban Region of the Indian Subcontinent. By providing detailed analyses of salinity levels in tube wells and rivers, the dashboard supports World Water Day on March 22nd, emphasizing the urgency of addressing water pollution. 
+
+It aims to foster awareness among these key groups about the escalating challenges of water contamination and climate change. The insights gleaned from this dashboard can guide effective decision-making, promote sustainable water management practices, and catalyze initiatives to mitigate the impact of human activities on vital water resources.
 
 ## Salinity:
 
 The salinity of water is a crucial factor in estuarine ecosystems. It refers to the amount of dissolved salts in water.
 
 ![Graphic breakdown of water salinity, defining freshwater, brackish water, saltwater, and brine water](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Water_salinity_diagram.png/800px-Water_salinity_diagram.png) 
+
+## Importance of Salinity:
+
+Salinity levels in estuaries are crucial for various reasons:
+* They determine the types of species that can live in these waters. Different species have different salinity tolerances.
+* Salinity affects water density, which influences water circulation and the mixing of nutrients.
+* It plays a role in the estuary's chemical processes, affecting oxygen levels and the health of the ecosystem.
 
 ## Measurement:  
 
@@ -75,19 +84,19 @@ It contain 55 datapoints.
 * *Average Tubewell water salinity*: 0.959702501 ppt
 * *Average River salinity and number of hamlets by Salinity Category*:
 
-
+![sal cat](https://github.com/Arpita-deb/Water-Salinity-Tableau-Dashboard/assets/139372731/90528e4e-4bb3-45c8-a57a-4d22928380d2)
 
 * *Top 10 Hamlets in terms terms of average Tubewell Salinity*:
 
-
+![tubewell sal](https://github.com/Arpita-deb/Water-Salinity-Tableau-Dashboard/assets/139372731/fd403b61-7f70-4a68-b37c-5556ce5e0011)
 
 * *Top 10 Hamlets in terms terms of average River Salinity*:
 
-
+![river sal](https://github.com/Arpita-deb/Water-Salinity-Tableau-Dashboard/assets/139372731/d1918720-2e43-4fd9-9f50-4d79b91a6e78)
 
 * *Hamlets with Tubewell salinity greater than 1 ppt*:
 
-
+![1ppt](https://github.com/Arpita-deb/Water-Salinity-Tableau-Dashboard/assets/139372731/52f7a213-6472-4c58-b138-dcf33da033f7)
 
 # Tableau Dashboard:
 
@@ -95,13 +104,35 @@ In the interative tableau dashboard I created two geographical maps of the India
 
 Along with the visualization, I also shared what is salinity, its categories, the salinity level for hamlets in question as well as how Salinity can adversely impact this region.
 
+![Screenshot (359)](https://github.com/Arpita-deb/Water-Salinity-Tableau-Dashboard/assets/139372731/c0039d33-b772-4b9b-b5ed-39a2c3bbbc91)
+
+![Screenshot (360)](https://github.com/Arpita-deb/Water-Salinity-Tableau-Dashboard/assets/139372731/204e3b57-8bd2-426b-a7eb-8d63d2635265)
+
 # Conclusion:
 
 The dashboard reveals that the upstream hamlets of the Delta region exhibit lower salinity levels in river water, yet the groundwater (tubewells) shows higher salinity. Downstream, as river water merges with seawater in estuaries, salinity increases. Consequently, downstream hamlets experience higher salinity in both river water, but surprisingly lower salinity in groundwater.
 
 Data from the World Bank Group indicates that water salinity exceeding 1 part per thousand (ppt) renders it unsuitable for drinking, and surpassing 2 ppt makes it unfit for irrigation. Our analysis indicates that out of 55 hamlets, 17 have tubewell salinity levels above 1 ppt.
 
-# Resources:
+# Why Salinity matters?
+
+High salinity affects the Sundarban region in several ways:
+* It can lead to **soil degradation**, reducing soil productivity and affecting agriculture.
+* Salinity intrusion can threaten the health of freshwater aquatic animals like fish and giant prawns.
+* High soil salinity can damage the soil structure, inhibiting the growth of plant species and altering the local ecosystem.
+* It also impacts the livelihoods of local communities, as it can cause shortages in drinking water and water scarcity for dry-season irrigation.
+
+These effects highlight the importance of managing salinity levels to protect both the environment and the well-being of the Sundarban communities.
+
+# Limitation of the project:
+
+1. **Limited Dataset Size**: The dataset comprises approximately 50 observations, which restricts our ability to offer a comprehensive analysis of salinity levels across the Sundarban Region.
+
+2. **Outdated Data**: The dataset's timeframe is confined to the year 2019, precluding the possibility of conducting an in-depth time series analysis to track salinity fluctuations and forecast future trends.
+
+3. **Insufficient Supplementary Data**: The absence of additional data, such as geographical and demographic information for the Sundarban area, hampers the enhancement of our analysis.
+
+# Additional Resources:
 
 * [Water Tubewell and River Salinity in Indian Sundarban Dataset](https://datacatalog.worldbank.org/search/dataset/0038270/India---Water--Tube-well-and-River--Salinity-in-Indian-Sundarban)
 * [Salinity - Wikipedia](https://en.wikipedia.org/wiki/Salinity#Classification_of_water_bodies_based_upon_salinity)
