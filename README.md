@@ -104,9 +104,9 @@ In the interative tableau dashboard I created two geographical maps of the India
 
 Along with the visualization, I also shared what is salinity, its categories, the salinity level for hamlets in question as well as how Salinity can adversely impact this region.
 
-![Screenshot (359)](https://github.com/Arpita-deb/Water-Salinity-Tableau-Dashboard/assets/139372731/c0039d33-b772-4b9b-b5ed-39a2c3bbbc91)
+![river](https://github.com/user-attachments/assets/43d31382-04fa-4cd1-a35b-bed224172381)
 
-![Screenshot (360)](https://github.com/Arpita-deb/Water-Salinity-Tableau-Dashboard/assets/139372731/204e3b57-8bd2-426b-a7eb-8d63d2635265)
+![tubewell](https://github.com/user-attachments/assets/459ed4d3-5f22-425d-b6bf-73770bc73cc2)
 
 # Conclusion:
 
